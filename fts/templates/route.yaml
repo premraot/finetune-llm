@@ -1,0 +1,18 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: finetune-route
+  labels:
+    app: finetune
+spec:
+  to:
+    kind: Service
+    name: finetune
+  port:
+    targetPort: http
+  # port:
+  #   targetPort: http
+  # host: <desired-hostname> # Specify the hostname you want to use for your route
+  # tls: # Uncomment and configure if you want to secure your route
+  #   termination: edge
+  #   insecureEdgeTerminationPolicy: Redirect
