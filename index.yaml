@@ -1,14 +1,14 @@
 apiVersion: v1
 entries:
-  flowise:
+  finetune:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-11-21T12:29:54.393797895+05:30"
+    created: "2023-12-01T17:32:11.330785485+05:30"
     description: A Helm chart for Kubernetes
-    digest: 588b78b37fcc6124f02137456447a9371e4dc05f8792e357206458ede6e3da47
-    name: flowise
+    digest: 4660e252d4548bdc6e2fda73aedba715043dba1672a1ec320ed64862818176c4
+    name: finetune
     type: application
     urls:
-    - https://raw.githubusercontent.com/premraot/flowise-helm/main/flowise.tgz
+    - https://raw.githubusercontent.com/premraot/finetune-llm/master/fts.tgz
     version: 0.1.0
-generated: "2023-11-21T12:29:54.393553657+05:30"
+generated: "2023-12-01T17:32:11.330253076+05:30"
