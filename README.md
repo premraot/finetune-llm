@@ -1,2 +1,2 @@
-# flowise-helm
-flowise helm repo
+# model finetuning-helm
+finetuning helm repo
