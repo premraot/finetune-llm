@@ -1,2 +1,2 @@
-# model finetuning-helm
+# finetuning-helm
 finetuning helm repo
